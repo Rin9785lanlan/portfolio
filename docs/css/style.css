@@ -6,6 +6,7 @@ body {
   color: #333;
 }
 
+
 a {
   transition: opacity .3s;
   text-decoration: none;
@@ -24,6 +25,8 @@ li {
   list-style: none;
 }
 
+
+
 .pc-only {
   display: block;
 }
@@ -32,9 +35,6 @@ li {
   display: none;
 }
 
-.wrapper {
-  padding-top: 73px;
-}
 
 .section {
   padding: 90px 0;
@@ -80,6 +80,12 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
+}
+
+.header-title{
+	color:#ffffff;
+	 font-family:'Franklin Gothic Medium', sans-serif;
+	 font-size:140%;
 }
 
 .header-logo {
@@ -138,6 +144,11 @@ li {
 }
 
 /*--- about ---*/
+.title{
+	font-family:'serif',serif;
+
+}
+
 .profile {
   display: flex;
   flex-wrap: wrap;
@@ -157,6 +168,7 @@ li {
 }
 .profile-body p:not(:last-child) {
   margin-bottom: 30px;
+  font-family:'Yu Mincho',和文フォント;
 }
 
 /*--- skill ---*/
@@ -188,6 +200,9 @@ li {
 
 .skill-name {
   margin-bottom: 3px;
+}
+.skill-text{
+	font-family:'Yu Mincho',和文フォント;
 }
 
 /*--- contact ---*/
